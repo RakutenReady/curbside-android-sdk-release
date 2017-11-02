@@ -12,14 +12,13 @@ repositories {
 
 
 dependencies {
-    compile 'com.curbside:sdk:x.xx'
+    compile 'com.curbside:sdk:3.0+'
 }
 ```
 
 ### Optional
 If required, following dependencies are optional packages that you can include in your gradle file for complete experience:
 ```java
-    compile(name:'curbside-android-sdk-release.x.x', ext:'aar')
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.squareup.retrofit:retrofit:1.9.0'
     compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
