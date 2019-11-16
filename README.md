@@ -27,7 +27,6 @@ If required, following dependencies are optional packages that you can include i
     compile 'com.google.android.gms:play-services:8.1.0'
     compile 'com.android.support:support-v4:23'
     compile 'com.google.code.gson:gson:1.7.2'
-    compile 'org.altbeacon:android-beacon-library:2.5.1'
 ```
 
 * Compile the code, it should compile successfully.
